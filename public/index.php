@@ -2,4 +2,4 @@
 
 declare(strict_types=1);
 
-print_r('Hello world');
+include __DIR__.'/../src/Course1/course_1.php';
