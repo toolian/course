@@ -1,0 +1,16 @@
+<h1><?=$title?></h1>
+<table>
+    <tr>
+        <td>Тип</td>
+        <td>Значение</td>
+        <td>Текст</td>
+    </tr>
+    <?php foreach($tableData as $value): ?>
+        <tr>
+            <td><?=$value['type']?></td>
+            <td><?=$value['value']?></td>
+            <td><?=$value['text']?></td>
+        </tr>
+    <?php endforeach; ?>
+</table>
+
